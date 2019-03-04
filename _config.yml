@@ -170,6 +170,7 @@ exclude:
   - /docs # ignore Minimal Mistakes /docs
   - /test # ignore Minimal Mistakes /test
   - serve
+  - _posts/template.md
 keep_files:
   - .git
   - .svn
