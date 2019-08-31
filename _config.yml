@@ -24,6 +24,7 @@ baseurl                  :
 repository               : "ginolatorilla/ginolatorilla.github.io"
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
 masthead_title           : gino latorilla
+logo                     : "/assets/images/88x88.png"
 # breadcrumbs            : false # true, false (default)
 words_per_minute         : 200
 comments:
