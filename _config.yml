@@ -84,7 +84,7 @@ facebook:
   username               : ginolatorilla
   app_id                 :
   publisher              :
-og_image                 : "https://lh3.googleusercontent.com/-ThlquzRmIVVmI2fw3sbdZdRgn0CrcF8uUxteGo7IB0wy-8V107HTDfyKQh0XNS1HWDoe92HaEAKp3OAH8iG2Aw16r_3W13t7u4Qyjy9CdITSXNIzWBxuwEc581172mCP7VnWHJbftebum1LjqB3dn11hfzdgoWheGyr09bfuZCOTOUx6wCryavAnQP5sAxFfFUhk86b6r2k01Za2HKA_NYk1vOv8Ac0Xr5swT50i0GMiBv56BwLfTWdlNQXTZJJLPi7QOHFwTRQ6M_Qv8WrXs4R_FFW7LE6MVaOTankoyddC5WCAgB8IvqnYkHrJGWRmaIDkSiCD8xgpZGLVJODKoUgBuT-NmE00Qux83pJUa8emeRgnhit6Tf8uC_kn4RZHus103wS916p70aN3D7bYdOo-IadXgXQZjSLsk4SjSymDDgcaVfw780LhuX8fCSMN5-AG5jLVhDm9u_Ek5OW69yKsPzpL6CCmWpVPnvTGaqUYO7nP2CSgzxmDrkyEu3Cd0JIcea0Bh7fAVJI_JVYdZHUvI3Yy1M0a22YMj3JeRByJTu9j1MkBnCSlVWBuaObdK31l0z45V4IEl75wcxLKtHi6QXL4lO358FnitPBPj07XFHkRdy0yoG5puh97XK3As4zCqqCx_q7C9XeTTC4npCkQu0CyP1dz2WRzv7cbNlS_VesijHI2DFHdy9NmG9oIWiPQ-Oak_RRUdWAoN4S5sUTyQ=s554-no"
+og_image                 : "/assets/images/site_logo.png"
 og_description           : *description
 # For specifying social profiles
 # - https://developers.google.com/structured-data/customize/social-profiles
