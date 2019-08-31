@@ -10,19 +10,18 @@
 # Review documentation to determine if you should use `theme` or `remote_theme`
 # https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/#installing-the-theme
 
-theme                  : "minimal-mistakes-jekyll"
-# remote_theme           : "mmistakes/minimal-mistakes"
+remote_theme             : "mmistakes/minimal-mistakes"
 minimal_mistakes_skin    : "default" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 
 # Site Settings
-locale                   : "en-US"
-title                    : "Site Title"
-title_separator          : "-"
-name                     : "Your Name"
-description              : "An amazing website."
-url                      : # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
-baseurl                  : # the subpath of your site, e.g. "/blog"
-repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
+locale                   : "en-GB"
+title                    : "Gino Latorilla"
+title_separator          : " - "
+name                     : &name "Gino Latorilla"
+description              : &description "My blog about software, triathlon, and everything else."
+url                      : "https://ginolatorilla.github.io"
+baseurl                  :
+repository               : "ginolatorilla/ginolatorilla.github.io"
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
 # breadcrumbs            : false # true, false (default)
 words_per_minute         : 200
@@ -59,8 +58,8 @@ reCaptcha:
   secret                 :
 atom_feed:
   path                   : # blank (default) uses feed.xml
-search                   : # true, false (default)
-search_full_content      : # true, false (default)
+search                   : true # true, false (default)
+search_full_content      : true # true, false (default)
 search_provider          : # lunr (default), algolia, google
 algolia:
   application_id         : # YOUR_APPLICATION_ID
@@ -80,16 +79,22 @@ naver_site_verification  :
 twitter:
   username               :
 facebook:
-  username               :
+  username               : ginolatorilla
   app_id                 :
   publisher              :
-og_image                 : # Open Graph/Twitter default site image
+og_image                 : "https://lh3.googleusercontent.com/-ThlquzRmIVVmI2fw3sbdZdRgn0CrcF8uUxteGo7IB0wy-8V107HTDfyKQh0XNS1HWDoe92HaEAKp3OAH8iG2Aw16r_3W13t7u4Qyjy9CdITSXNIzWBxuwEc581172mCP7VnWHJbftebum1LjqB3dn11hfzdgoWheGyr09bfuZCOTOUx6wCryavAnQP5sAxFfFUhk86b6r2k01Za2HKA_NYk1vOv8Ac0Xr5swT50i0GMiBv56BwLfTWdlNQXTZJJLPi7QOHFwTRQ6M_Qv8WrXs4R_FFW7LE6MVaOTankoyddC5WCAgB8IvqnYkHrJGWRmaIDkSiCD8xgpZGLVJODKoUgBuT-NmE00Qux83pJUa8emeRgnhit6Tf8uC_kn4RZHus103wS916p70aN3D7bYdOo-IadXgXQZjSLsk4SjSymDDgcaVfw780LhuX8fCSMN5-AG5jLVhDm9u_Ek5OW69yKsPzpL6CCmWpVPnvTGaqUYO7nP2CSgzxmDrkyEu3Cd0JIcea0Bh7fAVJI_JVYdZHUvI3Yy1M0a22YMj3JeRByJTu9j1MkBnCSlVWBuaObdK31l0z45V4IEl75wcxLKtHi6QXL4lO358FnitPBPj07XFHkRdy0yoG5puh97XK3As4zCqqCx_q7C9XeTTC4npCkQu0CyP1dz2WRzv7cbNlS_VesijHI2DFHdy9NmG9oIWiPQ-Oak_RRUdWAoN4S5sUTyQ=s554-no"
+og_description           : *description
 # For specifying social profiles
 # - https://developers.google.com/structured-data/customize/social-profiles
 social:
   type                   : # Person or Organization (defaults to Person)
   name                   : # If the user or organization name differs from the site's name
   links: # An array of links to social media profiles
+    - &fb_url "https://www.facebook.com/ginolatorilla"
+    - &ig_url "https://instagram.com/ginolatorilla"
+    - &gh_url "https://github.com/ginolatorilla"
+    - &li_url "https://www.linkedin.com/in/ginolatorilla"
+    - &st_url "https://www.strava.com/athletes/19394903"
 
 # Analytics
 analytics:
@@ -101,52 +106,36 @@ analytics:
 
 # Site Author
 author:
-  name             : "Your Name"
-  avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "I am an amazing person."
-  location         : "Somewhere"
-  email            :
+  name             : *name
+  avatar           : "https://lh3.googleusercontent.com/0lRpRjZTX-tvX_pJdz9bF5kk1F-e9d4lSQrlFrTipxMwUCJogEsFO6IrKwlAJhJuQSXkinIInWyLZBa0hwZmJBdr8681zKWyZFkl4wIFET1P1R5Yk7RZSZ4nMgjxE1A8K2UPb00uvw6Ux7JuQzOwfCvoGJmihYni8TE3ZuTwyL00FpjynCY82AErADCZFDFBg1_ids5vZn9VPN9THpfcy_1AovjrPx5m4eXcKgew_BHLlAELHtwZSj9Isnzaktzqa_PejmRN0T7r4hMZKptYYkoAt5Ph_dswpzYzHvwpuhSPSd7WB6Mf4GJULeeuIbS8keEDbnzSEY1BkpI8Aj96W_yK9Ocpbz8SZMb2W92mHYuxl2kI5Y6Fgl3XCKJX46gKsiCccPVoYX-jK_9Bf6uzxpJf3DKvg-94LGPWrjLPS7m4BlO8njS4-ri_Qe0Ni3mbdSXRorFnid1b-CaaUDlKZO4_Een6bGkDGg8Edv08-9djtdJSaD_q5SEMWaQWxNQKsXV0DUDFNNbOLtDFEcX7zslkVRrv05z2i9zgMHdnJhBIfpgtldLX4QfLNZOMUgpVS5gCkgTqNaGUCPT8XtlX3esDpqDLvm3tTZgH4XA-z4cGQHYQkWbK5pxF8WUmEKy8pqh1IbcGes7cqVyuCvtpx3Xe7z3EJr8U92Mh8PS1_xdsWh2dVlYY2zTG70-XMYOi3BVyVZVCQ0SjJ5UjWaE=s242-no"
+  bio              : "I code, I tri, and I wanna fly."
+  location         : "Antipolo, Philippines"
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
-      # url: mailto:your.name@email.com
-    - label: "Website"
-      icon: "fas fa-fw fa-link"
-      # url: "https://your-website.com"
-    - label: "Twitter"
-      icon: "fab fa-fw fa-twitter-square"
-      # url: "https://twitter.com/"
-    - label: "Facebook"
-      icon: "fab fa-fw fa-facebook-square"
-      # url: "https://facebook.com/"
-    - label: "GitHub"
-      icon: "fab fa-fw fa-github"
-      # url: "https://github.com/"
-    - label: "Instagram"
-      icon: "fab fa-fw fa-instagram"
-      # url: "https://instagram.com/"
+      url: "mailto:pblatorilla@gmail.com"
+    - label: &st_label "Strava"
+      icon: &st_icon "fab fa-fw fa-strava"
+      url: *st_url
+    - label: &gh_label "GitHub"
+      icon: &gh_icon "fab fa-fw fa-github"
+      url: *gh_url
+    - label: &ig_label "Instagram"
+      icon: &ig_icon "fab fa-fw fa-instagram"
+      url: *ig_url
 
 # Site Footer
 footer:
   links:
-    - label: "Twitter"
-      icon: "fab fa-fw fa-twitter-square"
-      # url:
-    - label: "Facebook"
-      icon: "fab fa-fw fa-facebook-square"
-      # url:
-    - label: "GitHub"
-      icon: "fab fa-fw fa-github"
-      # url:
-    - label: "GitLab"
-      icon: "fab fa-fw fa-gitlab"
-      # url:
-    - label: "Bitbucket"
-      icon: "fab fa-fw fa-bitbucket"
-      # url:
-    - label: "Instagram"
-      icon: "fab fa-fw fa-instagram"
-      # url:
+    - label: *st_label
+      icon: *st_icon
+      url: *st_url
+    - label: *gh_label
+      icon: *gh_icon
+      url: *gh_url
+    - label: *ig_label
+      icon: *ig_icon
+      url: *ig_url
 
 
 # Reading Files
@@ -168,6 +157,7 @@ exclude:
   - CHANGELOG
   - config
   - Gemfile
+  - Gemfile.dev
   - Gruntfile.js
   - gulpfile.js
   - LICENSE
@@ -179,6 +169,7 @@ exclude:
   - tmp
   - /docs # ignore Minimal Mistakes /docs
   - /test # ignore Minimal Mistakes /test
+  - serve
 keep_files:
   - .git
   - .svn
@@ -216,7 +207,7 @@ sass:
 permalink: /:categories/:title/
 paginate: 5 # amount of posts to show
 paginate_path: /page:num/
-timezone: # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+timezone: Asia/Manila
 
 
 # Plugins (previously gems:)
@@ -288,3 +279,10 @@ defaults:
       comments: # true
       share: true
       related: true
+  # _pages
+  - scope:
+      path: ""
+      type: pages
+    values:
+      layout: single
+      author_profile: false
