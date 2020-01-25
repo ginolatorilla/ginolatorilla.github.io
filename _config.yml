@@ -173,6 +173,7 @@ exclude:
   - /test # ignore Minimal Mistakes /test
   - serve
   - _posts/template.md
+  - src/
 keep_files:
   - .git
   - .svn
