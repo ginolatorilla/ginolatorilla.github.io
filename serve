@@ -1,0 +1,6 @@
+#!/bin/bash
+
+export JEKYLL_ENV=development
+bundle install --no-deployment --path vendor/bundle
+bundle update
+bundle exec jekyll serve --trace --config '_config.yml,_config.dev.yml' --drafts
