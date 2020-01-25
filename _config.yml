@@ -18,7 +18,7 @@ locale                   : "en-GB"
 title                    : "gino latorilla"
 title_separator          : " - "
 name                     : &name "Gino Latorilla"
-description              : &description "My blog about software, triathlon, and everything else."
+description              : &description "This is my professional blog about software engineering and anything relevant to technology."
 url                      : "https://ginolatorilla.github.io"
 baseurl                  :
 repository               : "ginolatorilla/ginolatorilla.github.io"
@@ -107,8 +107,8 @@ analytics:
 author:
   name             : *name
   avatar           : "/assets/images/avatar.jpg"
-  bio              : "I code, I tri, and I wanna fly."
-  location         : "Antipolo, Philippines"
+  bio              : "Flipping bits and bytes. Millions of lines of source code. Syntax error at line 44."
+  location         : "Pasig City, Philippines"
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
