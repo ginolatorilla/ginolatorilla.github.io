@@ -92,11 +92,8 @@ social:
   type                   : # Person or Organization (defaults to Person)
   name                   : # If the user or organization name differs from the site's name
   links: # An array of links to social media profiles
-    - &fb_url "https://www.facebook.com/ginolatorilla"
-    - &ig_url "https://instagram.com/ginolatorilla"
     - &gh_url "https://github.com/ginolatorilla"
     - &li_url "https://www.linkedin.com/in/ginolatorilla"
-    - &st_url "https://www.strava.com/athletes/19394903"
 
 # Analytics
 analytics:
@@ -116,28 +113,22 @@ author:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
       url: "mailto:pblatorilla@gmail.com"
-    - label: &st_label "Strava"
-      icon: &st_icon "fab fa-fw fa-strava"
-      url: *st_url
     - label: &gh_label "GitHub"
       icon: &gh_icon "fab fa-fw fa-github"
       url: *gh_url
-    - label: &ig_label "Instagram"
-      icon: &ig_icon "fab fa-fw fa-instagram"
-      url: *ig_url
+    - label: &li_label "LinkedIn"
+      icon: &li_icon "fab fa-linkedin"
+      url: *li_url
 
 # Site Footer
 footer:
   links:
-    - label: *st_label
-      icon: *st_icon
-      url: *st_url
     - label: *gh_label
       icon: *gh_icon
       url: *gh_url
-    - label: *ig_label
-      icon: *ig_icon
-      url: *ig_url
+    - label: *li_label
+      icon: *li_icon
+      url: *li_url
 
 
 # Reading Files
