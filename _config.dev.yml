@@ -1,0 +1,9 @@
+theme: "minimal-mistakes-jekyll"
+url: "127.0.0.1"
+host: 0.0.0.0
+port: 4000
+analytics:
+  provider: false
+show_drafts: true
+sass:
+  style: full
