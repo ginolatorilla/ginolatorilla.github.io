@@ -109,7 +109,7 @@ analytics:
 # Site Author
 author:
   name             : *name
-  avatar           : "https://lh3.googleusercontent.com/0lRpRjZTX-tvX_pJdz9bF5kk1F-e9d4lSQrlFrTipxMwUCJogEsFO6IrKwlAJhJuQSXkinIInWyLZBa0hwZmJBdr8681zKWyZFkl4wIFET1P1R5Yk7RZSZ4nMgjxE1A8K2UPb00uvw6Ux7JuQzOwfCvoGJmihYni8TE3ZuTwyL00FpjynCY82AErADCZFDFBg1_ids5vZn9VPN9THpfcy_1AovjrPx5m4eXcKgew_BHLlAELHtwZSj9Isnzaktzqa_PejmRN0T7r4hMZKptYYkoAt5Ph_dswpzYzHvwpuhSPSd7WB6Mf4GJULeeuIbS8keEDbnzSEY1BkpI8Aj96W_yK9Ocpbz8SZMb2W92mHYuxl2kI5Y6Fgl3XCKJX46gKsiCccPVoYX-jK_9Bf6uzxpJf3DKvg-94LGPWrjLPS7m4BlO8njS4-ri_Qe0Ni3mbdSXRorFnid1b-CaaUDlKZO4_Een6bGkDGg8Edv08-9djtdJSaD_q5SEMWaQWxNQKsXV0DUDFNNbOLtDFEcX7zslkVRrv05z2i9zgMHdnJhBIfpgtldLX4QfLNZOMUgpVS5gCkgTqNaGUCPT8XtlX3esDpqDLvm3tTZgH4XA-z4cGQHYQkWbK5pxF8WUmEKy8pqh1IbcGes7cqVyuCvtpx3Xe7z3EJr8U92Mh8PS1_xdsWh2dVlYY2zTG70-XMYOi3BVyVZVCQ0SjJ5UjWaE=s242-no"
+  avatar           : "/assets/images/avatar.jpg"
   bio              : "I code, I tri, and I wanna fly."
   location         : "Antipolo, Philippines"
   links:
