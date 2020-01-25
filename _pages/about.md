@@ -1,15 +1,27 @@
 ---
 title: "\"Hello there\""
 permalink: /about/
+classes: wide
 ---
-I am Gino Latorilla and I'm a Technical Leader in Nokia.
+{% include figure
+    image_path="/assets/images/about-photo-from-bencab-museum.jpg"
+    alt="Painting of a man as a computer, abstract."
+    caption="(2019) Shot in BenCab Museum, \"The Modern Man\"."
+    class="align-left"
+%}
 
-![A collage about me]({{ site.data.from_google_photos.about_collage }})
+I'm **Gino Latorilla** and welcome to my blog, where I write about software and tech.
 
-I'm a DevOps practitioner (uncertified, yet). I code with C++, Python, and JavaScript. I'm also a resident instructor where I teach my peers all about software engineering. I maintain an instructional site with articles and screencasts.
+I am a Technical Leader for radio software, where I make apps build faster and run leaner.
 
-When I'm not coding, I sweat it out. I started as a runner, racing 10Ks and half marys. Then I bought a bike and raced duathlons and eventually triathlons. I hope someday to finish an Ironman.
+In 2011 I joined [Nokia](https://www.nokia.com/). I was still a student at [UP Diliman](https://upd.edu.ph/)
+and finishing my Bachelor's Degree. I progressed from a junior engineer to a software architect.
+Asides from coding, I've coached several of my colleagues. I've been in the company for 9 years.
 
-I travel all around our beautiful islands with my beautiful girlfriend. We have a lot of pristine beaches and breathtaking mountains here in the Philippines.
+I love solving problems with code. If I'm not busy, then I'm learning new things,
+trying to make my house smarter, or writing (hopefully) interesting stuff.
+
+I like riding bikes. If you see someone wearing a Nokia Cycling Jersey here in the Philippines,
+then the designer is *yours truly*.
 
 **Thanks for stopping by, and happy reading!**
