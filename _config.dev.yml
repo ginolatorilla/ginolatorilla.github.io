@@ -7,3 +7,7 @@ analytics:
 show_drafts: true
 sass:
   style: full
+profile: true
+strict_front_matter: true
+livereload: true
+incremental: true
