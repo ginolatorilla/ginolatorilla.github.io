@@ -2,16 +2,11 @@
 title: "\"Hello there\""
 permalink: /about/
 ---
-{% include figure
-    image_path="/assets/images/about-photo-from-bencab-museum.jpg"
-    alt="Painting of a man as a computer, abstract."
-    caption="(2019) Shot in BenCab Museum, \"The Modern Man\"."
-    class="align-left"
-%}
-
 I'm **Gino Latorilla** and welcome to my blog, where I write about software and tech.
 
 I am a Technical Leader for radio software, where I make apps build faster and run leaner.
+
+![The Modern Man, Ben Cab](/assets/images/about-photo-from-bencab-museum.jpg){: .align-center}
 
 In 2011 I joined [Nokia](https://www.nokia.com/). I was still a student at [UP Diliman](https://upd.edu.ph/)
 and finishing my Bachelor's Degree. I progressed from a junior engineer to a software architect.
