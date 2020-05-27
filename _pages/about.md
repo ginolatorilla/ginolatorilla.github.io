@@ -1,7 +1,6 @@
 ---
 title: "\"Hello there\""
 permalink: /about/
-classes: wide
 ---
 {% include figure
     image_path="/assets/images/about-photo-from-bencab-museum.jpg"
