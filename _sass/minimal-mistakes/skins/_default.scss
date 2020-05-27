@@ -1,0 +1,16 @@
+/* ==========================================================================
+   Default skin
+   ========================================================================== */
+
+/* system typefaces */
+$serif: Georgia, Times, serif !default;
+$sans-serif: -apple-system, BlinkMacSystemFont, "Roboto", "Segoe UI",
+  "Helvetica Neue", "Lucida Grande", Arial, sans-serif !default;
+$monospace: "Fira Code", Monaco, Consolas, "Lucida Console", monospace !default;
+
+$global-font-family: $sans-serif !default;
+$header-font-family: $serif !default;
+$caption-font-family: $serif !default;
+
+/* colors */
+$footer-background-color: mix(#4682b4, #fff, 40%) !default;
