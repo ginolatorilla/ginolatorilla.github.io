@@ -13,4 +13,7 @@ $header-font-family: $serif !default;
 $caption-font-family: $serif !default;
 
 /* colors */
-$footer-background-color: mix(#4682b4, #fff, 40%) !default;
+$primary-color: mix(#0092ca, #000, 45%) !default;
+$background-color: mix(#0092ca, #fff, 3%) !default;
+$footer-background-color: mix(#0092ca, #fff, 20%) !default;
+$link-color: mix(#0092ca, #fff, 83%) !default;
